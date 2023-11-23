@@ -16,3 +16,8 @@ logging.basicConfig(
     format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level = logging.INFO,
 )
+
+# Test the file if it works
+
+# if __name__ == "__main__":
+#     logging.info("Logging function test. Logging has started.")
